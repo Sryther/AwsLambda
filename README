@@ -1,0 +1,4 @@
+docker pull amazonlinux:latest
+
+docker run -v $(pwd):/outputs -it amazonlinux:latest /bin/bash /outputs/build.sh
+
