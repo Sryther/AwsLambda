@@ -1,5 +1,5 @@
-yum update -y
-yum install -y git cmake gcc-c++ gcc python-devel python27-virtualenv chrpath zip
+yum -y update
+yum -y install git cmake gcc-c++ gcc python-devel python27-virtualenv chrpath zip
 mkdir -p /outputs/lambda-package/cv2 /outputs/build/numpy
 
 # Build numpy
